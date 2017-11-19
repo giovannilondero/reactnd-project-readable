@@ -93,7 +93,7 @@ class PostForm extends Component {
         />
         <Form.Input {...commonAttrs.call(this, 'title')} value={title} />
         <Form.TextArea {...commonAttrs.call(this, 'message')} value={message} />
-        <Form.Dropdown
+        <Form.Select
           {...commonAttrs.call(this, 'category')}
           value={category}
           options={categoryOptions}

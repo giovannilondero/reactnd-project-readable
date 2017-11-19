@@ -1,22 +1,30 @@
-# Readable API Server
+# Readable
 
-This is the starter project for the final assessment project for Udacity's Redux course where you will build a content and comment web app. Users will be able to post content to predefined categories, comment on their posts and other users' posts, and vote on posts and comments. Users will also be able to edit and delete posts and comments.
+This is the assessment project for Udacity's Redux course of React Nanodegree.
 
-This repository includes the code for the backend API Server that you'll use to develop and interact with the front-end portion of the project.
+### Prerequisites
 
-## Start Developing
+- [node](https://nodejs.org/it/)
+- [npm](https://www.npmjs.com/)
 
-To get started developing right away:
+### Usage
 
-* Install and start the API server
-    - `cd api-server`
-    - `npm install`
-    - `node server`
-* In another terminal window, use Create React App to scaffold out the front-end
-    - `create-react-app frontend`
-    - `cd frontend`
-    - `npm start`
+Backend:
+```
+$ cd api-server
+$ npm install
+$ node server
+```
 
-## API Server
+Frontend:
+```
+$ cd frontend
+$ npm install
+$ npm start
+```
 
-Information about the API server and how to use it can be found in its [README file](api-server/README.md).
+### Notes
+
+* I've completed this project quite in hurry, in 3 days of work; code is not commented and can be a bit messy in some components, even though I tried to keep it as clean as possible; I haven't used a type system; site might be not totally responsive;
+* While learning Redux, I took the chance to try out [Ramda.js](http://ramdajs.com/) and [react-semantic-ui](https://react.semantic-ui.com/introduction) too;
+* Project is still in debug mode.
